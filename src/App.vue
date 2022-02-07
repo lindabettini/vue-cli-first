@@ -1,24 +1,19 @@
 <template>
 	<div>
 		<Title />
-		<main>
-			<ul>
-				<li>Link 1</li>
-				<li>Link 2</li>
-				<li>Link 3</li>
-				<li>Link 4</li>
-			</ul>
-		</main>
+		<Hero />
 		<footer>Developed by Linda Class #52</footer>
 	</div>
 </template>
 
 <script>
 import Title from "./components/Title.vue";
+import Hero from "./components/Hero.vue";
 export default {
 	name: "App",
 	components: {
 		Title,
+		Hero,
 	},
 };
 </script>
